@@ -6,7 +6,7 @@ jobs:
     steps:
       - add_ssh_keys:
           fingerprints:
-            - "6b:0d:13:1f:91:e2:23:c1:fb:e8:e8:92:61:76:36:54"
+            - "3a:ed:4e:12:f5:dc:08:31:c2:35:e9:2e:0d:33:4f:35"
       - checkout # 从仓库拉取代码
       - run:
          name: Install
